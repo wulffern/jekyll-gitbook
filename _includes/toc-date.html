@@ -29,7 +29,7 @@
                     {% endif %}
 
                     {% for post in reversed_posts %}
-                        <p>{{ post.url }}</p>
+                        <!--<p>{{ post.url }}</p>-->
                         {% if page.url == post.url %}
                         <li class="chapter active" data-level="1.2" data-path="{{site.baseurl}}{{post.url}}">
                         {% else %}
